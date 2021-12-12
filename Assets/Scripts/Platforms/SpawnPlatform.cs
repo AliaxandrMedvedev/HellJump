@@ -10,6 +10,6 @@ public class SpawnPlatform : Platform
 
     private void Awake()
     {
-        Instantiate(_ball, _spawnPoint.position, Quaternion.identity);
+        Instantiate(_ball, _spawnPoint.position, Quaternion.identity);      //spawn ball with the Spawn Platform
     }
 }
